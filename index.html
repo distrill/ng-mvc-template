@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:ng="http://angularjs.org">
+    <head>
+        <title>Carbon Footprint - Green Step</title>
+        <link type="text/css" rel="stylesheet" href="public/css/stylesheet.css"/>
+    </head>
+    <body>
+        <!-- angular views will appear here -->
+        <section ng-include="'views/example.view.html'"></section>
+
+        <!-- external angular modules, installed with bower -->
+        <script src="lib/angular/angular.js"></script>
+
+        <!-- our own modules -->
+        <script src="modules/example.module.js"></script>
+
+        <!-- our own controllers, should match up with modules -->
+        <script src="controllers/example.controller.js"></script>
+
+        <!-- bootstrap our application -->
+        <script src="application.js"></script>
+    </body>
+</html>
